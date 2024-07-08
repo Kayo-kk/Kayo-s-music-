@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Download Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Download Site</h1>
+    </header>
+    <main>
+        <section id="music-list">
+            <h2>Available Music</h2>
+            <ul>
+                <li>
+                    <span>Song Title 1</span>
+                    <a href="music/song1.mp3" download>Download</a>
+                </li>
+                <li>
+                    <span>Song Title 2</span>
+                    <a href="music/song2.mp3" download>Download</a>
+                </li>
+                <!-- Add more songs here -->
+            </ul>
+        </section>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
